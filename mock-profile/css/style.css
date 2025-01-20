@@ -49,9 +49,9 @@ header{
     width: 100%;
 }
 
-.about-me{
+/*.about-me{
     background-color: #FFEAEA;
-}
+}*/
 
 .articles{
     background-color: #EAF9FF;
@@ -60,6 +60,11 @@ header{
 .about-me,
 .articles{
     text-align: center;
+}
+
+.inverse {
+    background-color: #252525;
+    color: #FFF;
 }
 /*Typography*/
 h1,
