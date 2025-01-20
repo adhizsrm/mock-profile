@@ -1,4 +1,4 @@
-body,html{
+body{
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
@@ -14,40 +14,87 @@ body,html{
     align-items: center;
 }
 
-.profile-card {
+.profile-card{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 507px;
+    width: 508px;
     /*border: 1px solid blue;*/
     padding: 15px;
     margin: 20px 0px;
+    text-align: center;
 }
 
-.img-1 {
+.img-1{
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
+.section-top,
+.section-middle,
+.section-bottom {
+    padding: 100px 0px;
+}
 
+header{
+    background-color: #D7D7D7;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about-me{
+    background-color: #FFEAEA;
+    padding: 100px 0px;
+}
+
+.articles{
+    background-color: #EAF9FF;
+    padding: 100px 0px;
+}
 /*Typography*/
-h1,h2 {
+h1,
+h2{
     font-weight: 300;
 }
-h1 {
+
+h1{
     font-size: 60px;
+    text-align: center;
 }
 
-h2 {
+h2{
     font-size: 42px;
 }
 
-h3 {
+h3{
     font-size: 36px;
     font-weight: 900;
 }
 
-.small-text {
+.bold-text{
+    font-weight: 900;
+    display: block;
+}
+
+h1 .bold-text {
+    font-size: 80px;
+}
+
+h2 .bold-text{
+    font-size: 60px;
+}
+
+.small-text{
     font-size: 16px;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus{
+    color:#131313;
 }
