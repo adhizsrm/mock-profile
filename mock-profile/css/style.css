@@ -37,20 +37,21 @@ body{
     padding: 100px 0px;
 }
 
+header,
+section{
+    padding: 100px 0;
+}
 header{
     background-color: #D7D7D7;
     width: 100%;
-    padding: 100px 0px;
 }
 
 .about-me{
     background-color: #FFEAEA;
-    padding: 100px 0px;
 }
 
 .articles{
     background-color: #EAF9FF;
-    padding: 100px 0px;
 }
 /*Typography*/
 h1,
