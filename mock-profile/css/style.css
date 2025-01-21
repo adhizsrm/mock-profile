@@ -100,6 +100,10 @@ a:focus {
     color:#131313;
 }
 
+.border-line {
+    width: fit-content;
+    border: 1px solid #C4C4C4;
+}
 /*Typography*/
 h1,
 h2 {
@@ -115,6 +119,9 @@ h1 {
 h2 {
     font-size: 42px;
     margin-top: 0;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 25px 0;
 }
 
 h3 {
@@ -141,6 +148,7 @@ h2 .bold-text {
 }
 
 .small-text {
+    margin-top:0;
     font-size: 16px;
 }
 
