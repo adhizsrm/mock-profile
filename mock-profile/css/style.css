@@ -1,4 +1,4 @@
-body{
+body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
@@ -27,11 +27,12 @@ body{
     text-align: center;
 }*/
 
-.container{
+.container {
     width: 570px;
     margin: 0 auto;
 }
-.img-1{
+
+.img-1 {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -40,11 +41,11 @@ body{
 }
 
 header,
-section{
+section {
     padding: 100px 0;
 }
 
-header{
+header {
     background-color: #D7D7D7;
     width: 100%;
 }
@@ -53,12 +54,12 @@ header{
     background-color: #FFEAEA;
 }*/
 
-.articles{
+.articles {
     background-color: #EAF9FF;
 }
 
 .about-me,
-.articles{
+.articles {
     text-align: center;
 }
 
@@ -67,41 +68,66 @@ header{
     color: #FFF;
 }
 
-.btn{
+.btn {
+    /*
+        * If you give this a display of block, you would run into an issue or it would stretch the full size and it 
+       wouldn't be centered anymore even if you gave it a width. 
+     
+        * So inline block, it's sort of still treated like text, so it can stay centered
+    */
+    display: inline-block;
     background-color: #99D930;
     text-decoration: none;
     color: #252525;
+    /*
+        we did this with padding, and not with height and width, because of this, the proportions would be asymmetrical and 
+        the text also wouldn't be centered well.
+    */
     padding: 10px 25px;
+    
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #252525;
+    color: #FFF;
+}
+
+
+a:hover,
+a:focus {
+    color:#131313;
 }
 
 /*Typography*/
 h1,
-h2{
+h2 {
     font-weight: 300;
 }
 
-h1{
+h1 {
     font-size: 60px;
     text-align: center;
     margin-top: 0;
 }
 
-h2{
+h2 {
     font-size: 42px;
     margin-top: 0;
 }
 
-h3{
+h3 {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 0;
 }
 
-p{
+p {
     margin-bottom: 0;
 }
 
-.bold-text{
+.bold-text {
     font-weight: 900;
     display: block;
 }
@@ -110,20 +136,15 @@ h1 .bold-text {
     font-size: 80px;
 }
 
-h2 .bold-text{
+h2 .bold-text {
     font-size: 60px;
 }
 
-.small-text{
+.small-text {
     font-size: 16px;
 }
 
 a {
     color: #99D930;
     font-weight: 900;
-}
-
-a:hover,
-a:focus{
-    color:#131313;
 }
