@@ -68,6 +68,12 @@ header {
     color: #FFF;
 }
 
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background-color: #FFF;
+    color: #252525;
+}
+
 .btn {
     /*
         * If you give this a display of block, you would run into an issue or it would stretch the full size and it 
@@ -104,6 +110,7 @@ a:focus {
     width: fit-content;
     border: 1px solid #C4C4C4;
 }
+
 /*Typography*/
 h1,
 h2 {
@@ -137,6 +144,12 @@ p {
 .bold-text {
     font-weight: 900;
     display: block;
+    color: #99D930;
+}
+
+time,.name {
+    font-weight: 900;
+    color: #99D930;
 }
 
 h1 .bold-text {
